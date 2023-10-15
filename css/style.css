@@ -1,0 +1,173 @@
+@font-face {
+    font-family: Belgiano;
+    src: url(../fonts/Belgiano\ Serif\ 2.otf);
+}
+@media (min-width: 600px) {
+    main {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+body{
+    
+    box-sizing: border-box;
+    font-family: Belgiano;
+    min-height: 100vh;
+    left: 35%;
+    position: absolute ;
+    background: rgb(237, 241, 246);
+   
+    
+}
+
+form{
+    box-shadow: 0 0 20px rgb(203, 202, 202);
+    padding: 50px 50px;
+    border-radius: 25px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 400px;
+    background-color: #295b72;
+
+}
+.logo{
+    
+    justify-content: center;
+    opacity: 0.2;
+    left: 5%;
+    position: relative;
+    
+}
+form h2{
+    font-size: 35px;
+    color: #9ddaf4;
+    margin: 0;
+    letter-spacing: 3PX;
+}
+
+form p{
+    font-size: 19px;
+    color: rgb(194, 187, 187);
+    margin-bottom: 35px;
+}
+
+.input-wrapper{
+    position: relative;
+    width: 305px;
+    margin-bottom: 35px;
+}
+
+input{
+    color: black;
+    padding: 12px 14px 16px 60px;
+    width: 100%;
+    border-radius: 25px;
+    border: 0;
+    box-shadow: 0 0 20px rgb(193, 189, 189);
+    outline: none;
+    font-size: 16px;
+}
+
+input::placeholder{
+    font-size: 16px;
+    color: rgb(155, 147, 147);
+    font-family: Belgiano;
+}
+
+.input-icon{
+    position: absolute;
+    height: 30px;
+    width: 30px;
+    left: 20px;
+    top: 50%;
+    transform: translateY(-55%);
+}
+
+.btn{
+    padding: 20px;
+    background: linear-gradient( 90deg,rgb(190, 213, 236) 25%, rgb(68, 115, 132) 100% );
+    box-shadow: 0 0 20px rgb(113, 127, 137);
+    color: azure;
+    text-transform: uppercase;
+    font-size: 16px;
+    letter-spacing: 4px;
+    cursor: pointer;
+    font-family: Belgiano;
+    font-weight: 900;
+
+}
+
+#record{
+    font-family: Belgiano;
+    text-align: center;
+    font-size: 35px;
+    color: #9ddaf4;
+    margin: 0;
+    letter-spacing: 3PX
+}
+
+.btn:hover{
+    background-color: rgb(165, 185, 220);
+}
+
+.success{
+    position: absolute;
+    top: 50px;
+    color: rgb(43, 150, 139);
+    font-size: 18px;
+}
+
+.error{
+    position: absolute;
+    top: 50px;
+    color: rgb(165, 79, 51) ;
+    font-size: 18px;
+}
+
+.content-table {
+    border-collapse: collapse;
+    width: 100%;
+    margin-bottom: 20px;
+    font-family: Belgiano;
+  }
+  
+
+  table, th, td {
+    border: 1px solid #ddd;
+  }
+  
+ 
+  tr:nth-child(odd) {
+    background-color: #f2f2f2;
+  }
+  
+  
+  th {
+    background-color: #295b72;
+    color: white;
+  }
+  
+  
+  tr:hover {
+    background-color: #ddd;
+  }
+  
+ 
+  td, th {
+    padding: 8px;
+  }
+  
+   
+  th {
+    font-family: Belgiano;
+    text-align: center;
+    font-weight: bold;
+  }
+  
+ 
+  tr:last-child {
+    border-bottom: 2px solid #295b72;
+  }
+
